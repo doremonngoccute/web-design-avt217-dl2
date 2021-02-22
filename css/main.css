@@ -8,10 +8,12 @@ h1 {
   font-weight: bold;
   font-size: 80px;
   text-align:center;
+  font-family: 'Pacifico', cursive;
+
 }
 h3 {
   color: rgb(162, 224, 215, 1);
-
+  font-family: 'Pacifico', cursive;
   font-size: 50px;
 }
 ul{color:rgb(236, 129, 97, 1);
@@ -21,6 +23,7 @@ a {
   color: rgb(185, 234, 218, 1);
   font-style: italic;
   font-size: 30px;
+  font-family: 'Pacifico', cursive;
 }
 a:hover {
   color: rgb(236, 129, 97, 1);
