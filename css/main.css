@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(255,160,130,255);
+  text-align:left;
+  margin-top: 100px
+}
+h1 {
+  color: rgb(216, 115, 83, 1);
+  font-weight: bold;
+  font-size: 80px;
+  text-align:center;
+}
+h3 {
+  color: rgb(162, 224, 215, 1);
+
+  font-size: 50px;
+}
+ul{color:rgb(236, 129, 97, 1);
+  font-size: 30px
+}
+a {
+  color: rgb(185, 234, 218, 1);
+  font-style: italic;
+  font-size: 30px;
+}
+a:hover {
+  color: rgb(236, 129, 97, 1);
+
+  font-size: 30px;
+}
