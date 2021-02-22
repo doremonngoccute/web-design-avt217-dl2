@@ -1,1 +1,36 @@
-body {background-color: red;}
+body {
+  background-color: rgb(193,148,83);
+  text-align:center;
+  margin-top: 300px
+}
+
+h1 {
+  color: rgb(227,196,173);
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h2{
+  color: rgb(148, 101, 49, 1);
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+a{
+  color: rgb(251, 166, 190, 1);
+
+}
+a:hover{
+  color:rgb(148, 205, 118, 1);
+  font-style: italic;
+
+}
+p{
+  color: rgb(255, 250, 211, 1);
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+
+}
