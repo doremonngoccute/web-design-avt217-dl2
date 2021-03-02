@@ -1,18 +1,33 @@
 body {
-  text-align:left;
-  margin-top: 100px
+
+  margin-top: 50px;
+  text-align:center;
 }
 h1 {
   color: red;
   font-family: 'Roboto',sans-serif;
+
+}
+h4 {
+  color: red;
+  font-family: 'Roboto',sans-serif;
+
 }
 h3 {
   color: black;
   font-family: 'Roboto',sans-serif;
 }
+h5 {
+  font-style: italic;
+  font-family: 'Roboto',sans-serif;
+
+}
+
 ul{color:blue;
 }
 p {
+  margin-left: 80px;
+  margin-right: 80px;
   color: gray;
   font-family: 'Roboto', sans-serif;
 }
