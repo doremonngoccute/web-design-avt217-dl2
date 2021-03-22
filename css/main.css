@@ -50,14 +50,12 @@ a:hover {
   font-size: 30px;
 }
 /****** media and queries ******/
-@media  screen and (max-width: 700px){
-  body{
-    background-color: purple;
-  }
+@media  screen and (max-width: 750px){
+/****
   .col{
       width: 100%;
       margin-bottom: 50px;
-  }
+  }****/
   header{
     width: 90vw;
   }
