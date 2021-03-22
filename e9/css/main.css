@@ -3,8 +3,9 @@ div{
   height:100px;
   background-color: indigo;
   float: left;
-  margin:auto;
-  border:10px solid black;
+  margin:-25px;
+  opacity: 0.5;
+  border:10px solid blue;
   opacity:inherit;
 
 }
