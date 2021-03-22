@@ -1,0 +1,10 @@
+div{
+  width:100px;
+  height:100px;
+  background-color: indigo;
+  float: left;
+  margin:auto;
+  border:10px solid black;
+  opacity:inherit;
+
+}

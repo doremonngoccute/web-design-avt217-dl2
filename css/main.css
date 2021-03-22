@@ -3,6 +3,21 @@ body {
   text-align:left;
   margin-top: 100px
 }
+
+header{
+  width: 75vw;
+  margin: 25px auto;
+  background-color: white;
+}
+main{
+  width: 75vw;
+  margin: 25px auto;
+  background-color: red;
+}
+.col{
+    width: 50%;
+    background-color: orange;
+}
 h1 {
   color: rgb(216, 115, 83, 1);
   font-weight: bold;
@@ -16,7 +31,11 @@ h3 {
   font-family: 'Pacifico', cursive;
   font-size: 50px;
 }
-ul{color:rgb(236, 129, 97, 1);
+
+
+
+ul{
+  color:rgb(236, 129, 97, 1);
   font-size: 30px
 }
 a {
