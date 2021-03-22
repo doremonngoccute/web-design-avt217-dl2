@@ -7,16 +7,16 @@ body {
 header{
   width: 75vw;
   margin: 25px auto;
-  background-color: white;
 }
 main{
-  width: 75vw;
+  width: 90vw;
   margin: 25px auto;
-  background-color: red;
+  display: flow-root;
 }
 .col{
     width: 50%;
-    background-color: orange;
+    float: left;
+    padding: 0 25px;
 }
 h1 {
   color: rgb(216, 115, 83, 1);
@@ -48,4 +48,24 @@ a:hover {
   color: rgb(236, 129, 97, 1);
 
   font-size: 30px;
+}
+/****** media and queries ******/
+@media  screen and (max-width: 700px){
+  body{
+    background-color: purple;
+  }
+  .col{
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  header{
+    width: 90vw;
+  }
+  main{
+    width: 90vw;
+  }
+  h1{
+    font-size: 40px;
+  }
+
 }
