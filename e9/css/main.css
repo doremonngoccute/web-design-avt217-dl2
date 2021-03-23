@@ -1,11 +1,163 @@
-div{
-  width:100px;
+/****** 1 *************/
+#pone .pSquare{
+  width:150px;
   height:100px;
-  background-color: indigo;
+  background-color: rgb(89,219,248);
+  margin: -25px -50px -75px ;
+  border:10px solid white;
   float: left;
-  margin:-25px;
-  opacity: 0.5;
-  border:10px solid blue;
-  opacity:inherit;
+  transform: rotate(25deg);
+  border-radius: 50%;
+}
+#pone .bSquare{
+  width:200px;
+  height:300px;
+  background-color: rgb(0,134,233);
+  margin:  -25px -50px -75px;
+  border:10px solid white;
+  float: left;
+  transform: rotate(50deg);
+  border-radius: 50%;
+}
+
+#pone .gCircle{
+  width:100px;
+  height:150px;
+  background-color: rgb(2,2,54);
+  margin: -25px -50px -75px;
+  border:10px solid rgb(2,2,54);
+  float: left;
+  transform: rotate(75deg);
+  border-radius: 50%;
 
 }
+
+/****** 2 *************/
+#ptwo .pSquare{
+  width:100px;
+  height:400px;
+  background-color: rgb(241,173,136);
+  margin: -50px;
+  border:10px solid white;
+  opacity: .90;
+  float: left;
+  border-radius: 50%;
+}
+#ptwo .bSquare{
+  width:100px;
+  height:300px;
+  background-color: rgb(121,57,55);
+  margin: -50px;
+  border:10px solid white;
+  opacity: .90;
+  float: left;
+  border-radius: 50%;
+}
+#ptwo .gCircle{
+  width:100px;
+  height:200px;
+  background-color: rgb(252,118,106);
+  margin: -50px;
+  border:10px solid white;
+  opacity: .90;
+  float: left;
+  border-radius: 50%;
+}
+
+#ptwo .hCircle{
+  width:100px;
+  height:100px;
+  background-color: rgb(183,253,254);
+  margin: -50px;
+  border:10px solid white;
+  opacity: .90;
+  float: left;
+  border-radius: 50%;
+}
+/****** 3 *************/
+#pthree .pSquare{
+  width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid rgb(254,138,113);
+   float: left;
+   margin: -30px;
+   opacity: 80%;
+
+
+}
+#pthree .bSquare{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgb(61,164,171);
+  float: left;
+  margin: -30px;
+  opacity: 80%;
+}
+#pthree .gCircle{
+  width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid rgb(246,205,97);
+   float: left;
+   margin: -30px;
+   opacity: 80%;
+}
+#pthree .hCircle{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid rgb(14,154,167);
+  float: left;
+  margin: -30px;
+  opacity: 80%;
+}
+/****** 4 *************/
+#pfour .pSquare{
+  width:200px;
+  height:200px;
+  background-color: rgb(91,22,22);
+  margin: -50px;
+  opacity: .80;
+  float: left;
+  border-radius: 10%;
+  transform: rotate(30deg);
+}
+#pfour .bSquare{
+  width:50px;
+  height:50px;
+  background-color: rgb(150,4,4);
+  margin: -50px;
+  opacity: .80;
+  float: left;
+  border-radius: 10%;
+  transform: rotate(50deg);
+
+}
+
+#pfour .gCircle{
+    width:200px;
+    height:200px;
+    background-color: rgb(201,0,0);
+    margin: -50px;
+    opacity: .80;
+    float: left;
+    border-radius: 50%;
+    transform: rotate(30deg);
+}
+#pfour .hCircle{
+      width:100px;
+      height:100px;
+      background-color: rgb(255,87,87);
+      margin: -50px;
+      opacity: .80;
+      float: left;
+      border-radius: 50%;
+      transform: rotate(50deg);
+}
+/****** 5 *************/

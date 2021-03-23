@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
 body {
   background-color: rgb(255,160,130,255);
   text-align:left;
@@ -21,7 +27,7 @@ main{
 h1 {
   color: rgb(216, 115, 83, 1);
   font-weight: bold;
-  font-size: 80px;
+  font-size: 90px;
   text-align:center;
   font-family: 'Pacifico', cursive;
 
@@ -50,12 +56,12 @@ a:hover {
   font-size: 30px;
 }
 /****** media and queries ******/
-@media  screen and (max-width: 750px){
-/****
+@media  screen and (max-width: 900px){
+
   .col{
       width: 100%;
       margin-bottom: 50px;
-  }****/
+  }
   header{
     width: 90vw;
   }
@@ -63,7 +69,8 @@ a:hover {
     width: 90vw;
   }
   h1{
-    font-size: 40px;
+    font-size: 70px;
   }
+
 
 }
