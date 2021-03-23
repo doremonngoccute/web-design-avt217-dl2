@@ -1,6 +1,7 @@
 /****** 1 *************/
+
 #pone .pSquare{
-  width:150px;
+  width:100px;
   height:100px;
   background-color: rgb(89,219,248);
   margin: -25px -50px -75px ;
@@ -11,13 +12,13 @@
 }
 #pone .bSquare{
   width:200px;
-  height:300px;
+  height:200px;
   background-color: rgb(0,134,233);
   margin:  -25px -50px -75px;
   border:10px solid white;
   float: left;
   transform: rotate(50deg);
-  border-radius: 50%;
+
 }
 
 #pone .gCircle{
@@ -35,9 +36,9 @@
 /****** 2 *************/
 #ptwo .pSquare{
   width:100px;
-  height:400px;
+  height:100px;
   background-color: rgb(241,173,136);
-  margin: -50px;
+  margin: -20px;
   border:10px solid white;
   opacity: .90;
   float: left;
@@ -45,21 +46,20 @@
 }
 #ptwo .bSquare{
   width:100px;
-  height:300px;
+  height:100px;
   background-color: rgb(121,57,55);
-  margin: -50px;
+  margin: -20px;
   border:10px solid white;
   opacity: .90;
   float: left;
-  border-radius: 50%;
+
 }
 #ptwo .gCircle{
   width:100px;
-  height:200px;
+  height:100px;
   background-color: rgb(252,118,106);
-  margin: -50px;
+  margin: -20px;
   border:10px solid white;
-  opacity: .90;
   float: left;
   border-radius: 50%;
 }
@@ -68,21 +68,20 @@
   width:100px;
   height:100px;
   background-color: rgb(183,253,254);
-  margin: -50px;
+  margin: -20px;
   border:10px solid white;
-  opacity: .90;
   float: left;
-  border-radius: 50%;
+
 }
 /****** 3 *************/
 #pthree .pSquare{
   width: 0;
    height: 0;
-   border-left: 50px solid transparent;
-   border-right: 50px solid transparent;
-   border-bottom: 100px solid rgb(254,138,113);
+   border-left: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-bottom: 200px solid rgb(254,138,113);
    float: left;
-   margin: -30px;
+   margin: -50px;
    opacity: 80%;
 
 
@@ -90,31 +89,31 @@
 #pthree .bSquare{
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid rgb(61,164,171);
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid rgb(61,164,171);
   float: left;
-  margin: -30px;
+  margin: -50px;
   opacity: 80%;
 }
 #pthree .gCircle{
   width: 0;
    height: 0;
-   border-left: 50px solid transparent;
-   border-right: 50px solid transparent;
-   border-bottom: 100px solid rgb(246,205,97);
+   border-left: 100px solid transparent;
+   border-right: 100px solid transparent;
+   border-bottom: 200px solid rgb(246,205,97);
    float: left;
-   margin: -30px;
+   margin: -50px;
    opacity: 80%;
 }
 #pthree .hCircle{
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid rgb(14,154,167);
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid rgb(14,154,167);
   float: left;
-  margin: -30px;
+  margin: -50px;
   opacity: 80%;
 }
 /****** 4 *************/
@@ -161,3 +160,45 @@
       transform: rotate(50deg);
 }
 /****** 5 *************/
+#pfive .pSquare {
+      width: 0;
+      height: 0;
+      border-top: 150px solid rgb(248,246,246);
+      border-right: 150px solid transparent;
+      float: left;
+
+}
+#pfive .cSquare {
+      width: 0;
+      height: 0;
+      border-top: 150px solid rgb(182,216,216);
+      border-left: 150px solid transparent;
+      float: left;
+
+}
+#pfive .bSquare{
+      width:100px;
+      height:100px;
+      background-color: rgb(87,132,132);
+      opacity: .80;
+      float: left;
+      border-radius: 50%;
+      transform: rotate(30deg);
+      opacity: .80;
+      margin: -50px;
+}
+#pfive .hCircle{
+      width: 0;
+      height: 0;
+      border-bottom: 150px solid rgb(154,200,200);
+      border-right: 150px solid transparent;
+      float: left;
+
+}
+#pfive .gCircle{
+      width: 0;
+      height: 0;
+      border-bottom: 150px solid rgb(244,207,207);
+      border-left: 150px solid transparent;
+      float: left;
+}
