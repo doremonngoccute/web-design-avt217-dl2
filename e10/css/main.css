@@ -90,31 +90,32 @@ body{
 
 
 .vertical{
-  height: 460px;
-  width: 120px;
+  height: 470px;
+  width: 110px;
   float: left;
   background-color: tomato;
-  margin : 5px;
+  margin-left: 5px;
+  margin-bottom:10px;
 }
 .horizontal{
-  height: 205px;
-  width: 490px;
+  height: 190px;
+  width: 540px;
   float: left;
   background-color: tomato;
   margin : 5px;
 }
 .square{
-  height: 240px;
-  width: 240px;
+  height: 265px;
+  width: 265px;
   float: left;
   background-color: tomato;
   margin : 5px;
 
 }
 .invi{
-  width: 500px;
+  width: 550px;
   height: 450px;
-  margin: 5px;
+  margin-left: 5px;
   float: left;
 }
 
