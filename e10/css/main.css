@@ -1,0 +1,213 @@
+body{
+  background-color: white;
+}
+/*chess*/
+.black{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  float: left;
+}
+.red{
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  float:left;
+}
+.board{
+  width: 800px;
+  display: flow-root;
+  margin: 100px auto;
+
+}
+/*.grid{
+  width: 800px;
+  display: flow-root;
+  margin: 100px auto;
+}*/
+
+/* 3col */
+.header {
+  width: 760px;
+  height: 100px;
+  background-color: tomato;
+  float:left;
+  margin: 10px;
+}
+.navi {
+  width: 760px;
+  height: 25px;
+  background-color: tomato;
+  float:left;
+  margin: 10px;
+}
+.column {
+  height: 500px;
+  width: 240px;
+  float: left;
+  background-color: tomato;
+  margin : 10px;
+}
+
+
+
+/* blog*/
+
+.header1 {
+  width: 760px;
+  height: 150px;
+  background-color: tomato;
+  float:left;
+  margin: 10px;
+  margin-bottom: 75px;
+}
+
+.column1 {
+  height: 500px;
+  width: 600px;
+  float: left;
+  background-color: tomato;
+  margin : 10px;
+}
+
+.column2 {
+  height: 200px;
+  width: 140px;
+  float: left;
+  background-color: tomato;
+  margin : 10px;
+}
+.footer1 {
+  width: 600px;
+  height: 50px;
+  background-color: tomato;
+  float:left;
+  margin: 10px;
+  margin-bottom:75px;
+}
+
+/*tennis*/
+
+
+.vertical{
+  height: 460px;
+  width: 120px;
+  float: left;
+  background-color: tomato;
+  margin : 5px;
+}
+.horizontal{
+  height: 205px;
+  width: 490px;
+  float: left;
+  background-color: tomato;
+  margin : 5px;
+}
+.square{
+  height: 240px;
+  width: 240px;
+  float: left;
+  background-color: tomato;
+  margin : 5px;
+
+}
+.invi{
+  width: 500px;
+  height: 450px;
+  margin: 5px;
+  float: left;
+}
+
+/*california*/
+.base{
+  width: 756px;
+  height: 460px;
+  margin-left: 5px;
+  float: left;
+  background-color: tomato;
+
+}
+.invi1{
+  width: 242px;
+  height: 450px;
+  margin: 5px 5px 5px 5px;
+  float: left;
+  background-color: white;
+}
+.rect{  width: 25px;
+  height: 60px;
+  margin: 2px 2px;
+  float: left;
+  background-color: tomato;
+
+}
+.floor1{ width: 240px;
+  height: 188px;
+  margin-bottom: 4px;
+  float: left;
+  background-color: white;
+}
+.floor2{
+  width: 240px;
+   height: 124px;
+   margin-bottom: 6px;
+   float: left;
+   background-color: white;
+}
+.sqin {
+  height: 188px;
+  width: 180px;
+  float: left;
+  background-color: white;
+
+}
+.recin1 {
+  height: 188px;
+  width: 57px;
+  float: left;
+  background-color: tomato;
+  margin-top:2px;
+
+}
+.recin {
+  height: 188px;
+  width: 59px;
+  float: left;
+  background-color: white;
+  margin-top:0px;
+
+}
+.fatrec{
+    width: 56px;
+    height: 124px;
+    margin: 2px 2px;
+    float: left;
+    background-color: tomato;
+
+
+}
+.thinrec{
+  width: 26px;
+    height: 124px;
+    margin: 2px 2px;
+    float: left;
+    background-color: tomato;
+
+}
+
+.fatrec1{
+    width: 60px;
+    height: 124px;
+
+    float: left;
+    background-color: white;
+
+
+}
+.thinrec1{
+  width: 26px;
+    height: 124px;
+    float: left;
+    background-color: white;
+    margin-right: 3px;
+}
