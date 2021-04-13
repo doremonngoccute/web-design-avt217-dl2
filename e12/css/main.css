@@ -1,0 +1,30 @@
+*{
+  box-sizing: : border-box;
+}
+body{
+  margin: 0;
+  background-color: rgb(247,255,242);
+}
+.sideright{
+  width: 900px;
+  height:5000px;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 700px;
+  background-color: rgb(205,230,190);
+  padding: 20px;
+}
+h1{
+  margin: 0px;
+  font-family: "ITC Avant Garde Gothic";
+  color: rgb(79,120,72);
+  font-size:200px;
+}
+h3{
+  font-size: 100px;
+  color: rgb(79,120,72);
+}
+p{
+  margin: 300px;
+  color: rgb(79,120,72);
+}
