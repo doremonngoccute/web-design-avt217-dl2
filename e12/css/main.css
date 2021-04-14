@@ -22,8 +22,9 @@ img{
 h1{
   margin-top: 150px;
   margin-left: 120px;
-  font-family: 'Didact Gothic', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: rgb(79,120,72);
   font-size:140px;
   line-height: 120pt;
@@ -42,8 +43,8 @@ h3{
   margin-top: -100px;
   font-size: 40px;
   margin-left: 120px;
-  font-family: 'Didact Gothic', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
   color: rgb(79,120,72);
 }
 
