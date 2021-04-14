@@ -8,7 +8,7 @@ body{
 }
 .sideright{
   width: 800px;
-  height:3500px;
+  height:3600px;
   position: relative;
   margin-top: 0px;
   margin-left: 700px;
@@ -55,4 +55,16 @@ p{
   margin-right: 130px;
   font-size: 21px;
   color: rgb(79,120,72);
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: black;
+  }
+  .sideright{
+    background-color: black;
+  }
+  p{
+    color: white;
+  }
 }
