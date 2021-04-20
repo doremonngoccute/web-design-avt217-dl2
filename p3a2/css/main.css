@@ -5,19 +5,12 @@ body{
   margin: 0;
   background-color: black;
 }
-.button {
-  background-color: pink;
-  border: none;
-  color: white;
-  padding: 40px 70px;
-  text-align: center;
-  display: inline-block;
-  font-size: 40px;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: relative;
-  margin-top: 150px;
-  margin-left: 700px;
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 h1{
   margin: 0px;
@@ -25,6 +18,5 @@ h1{
   color: purple;
   font-size:100px;
   position: relative;
-  margin-top: 200px;
-  margin-left: 100px;
+  text-align: center;
 }
