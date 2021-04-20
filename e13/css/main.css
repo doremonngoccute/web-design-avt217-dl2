@@ -1,0 +1,108 @@
+*{
+  box-sizing: : border-box;
+}
+body{
+  margin: 0;
+  background-color: lightblue;
+}
+.whitepen{
+  width: 900px;
+  height:100px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  position: relative;
+  margin: 300px auto;
+}
+.orangecase{
+  width: 800px;
+  height:100px;
+  background-color: orange;
+  background-image: linear-gradient(orange, red);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  position: absolute;
+  animation: bas 8s linear ;
+}
+@keyframes bas {
+  to   {height:-150px}
+  from  {height:0px}
+}
+
+.silver{
+  width: 100px;
+  height:75px;
+  background-color: silver;
+  position: absolute;
+  background-image: linear-gradient(silver, gray);
+  top: 25px;
+  left: 100px;
+}
+.tip{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid white;
+  border-bottom: 50px solid transparent;
+  left: 800px;
+  top:0px;
+  position: absolute;
+}
+
+.leaves1{
+  width: 100px;
+  height:25px;
+  background-color: green;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background-image: linear-gradient(green, darkgreen);
+  position: absolute;
+  top: 25px;
+  left: -100px;
+  animation: base 8s linear ;
+}
+@keyframes base {
+  to   {height:-150px}
+  from  {height:0px}
+}
+.leaves2{
+  width: 100px;
+  height:25px;
+  background-color: green;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background-image: linear-gradient(green, darkgreen);
+  position: absolute;
+  top: 50px;
+  left: -100px;
+  animation: hi 8s linear ;
+}
+@keyframes hi {
+  to   {height:-150px}
+  from  {height:0px}
+}
+
+.tipcase {
+   width: 0;
+   height: 0;
+   border-top: 25px solid transparent;
+   border-left: 50px solid red;
+   border-bottom: 25px solid transparent;
+   left: 850px;
+   top:25px;
+   position: absolute;
+   animation: removetip 8s;
+ }
+ @keyframes removetip{
+   0%   { left:850px; top:25px}
+   10%  { left:1000px; top:10px;}
+   20%  {left:1000px; top:10px;}
+   30%  { left:289px; top:50px;}
+   40%  { left:123px; top:274px;}
+   50%  {left:100px; top:10px;}
+   60%  {left:700px; top:10px;}
+   70%  { left:300px; top:200px;}
+   80%  { left:0px; top:374px;}
+   100% { left:850px; top:25px}
+ }
