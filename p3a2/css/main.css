@@ -5,18 +5,28 @@ body{
   margin: 0;
   background-color: black;
 }
-
-.team {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+main{
+  width: 50vw;
+  margin: 0 auto;
+	padding: 150px 0 0 0;
+}
+image{
+  width:100%;
 }
 h1{
+  padding: 50px;
   margin: 0px;
-  font-family: "ITC Avant Garde Gothic";
-  color: purple;
-  font-size:100px;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  color: yellow;
+  font-size:80px;
   position: relative;
   text-align: center;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
